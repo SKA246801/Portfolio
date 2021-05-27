@@ -91,10 +91,6 @@ header h1 a {
     width: 60vw;
 }
 
-#run-buddy-img {
-    width: 35vw;
-    height: 15vw;
-}
 
 #Work .boxes {
     display: flex;
@@ -121,4 +117,9 @@ header h1 a {
 .info li {
     list-style-type: none;
     padding: 0px 15px;
+}
+
+#work3 {
+    width: 30vw;
+    height: 28vh;
 }
