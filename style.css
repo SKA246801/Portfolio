@@ -11,18 +11,17 @@ header {
     flex-wrap: wrap;
     padding: 10px 20px;
 }
+
 header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    
 }
 
 header nav ul li {
     margin-top: 25px;
- 
 }
 
 header nav ul li a {
@@ -122,4 +121,8 @@ header h1 a {
 #work3 {
     width: 30vw;
     height: 28vh;
+}
+
+.title-image {
+    display: flex;
 }
