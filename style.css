@@ -69,6 +69,7 @@ header h1 a {
 .project-title {
     text-align: center;
     font-size: 2vw;
+    margin-bottom: 1%;
 }
 
 .project-title span {
@@ -77,10 +78,19 @@ header h1 a {
 
 .boxes {
     display: flex;
-    /* flex-flow: column wrap; */
     flex-wrap: wrap
+}
 
-    /* justify-content: center; */
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.project-description {
+    text-align: center;
+    font-size: 1.3vw;
+    margin-top: 1%;
+    max-width: 1000px;
 }
 
 .info {
@@ -101,7 +111,7 @@ header h1 a {
 }
 
 .title-image {
-    margin: 0 auto;
+    margin: 1% auto;
 }
 
 #background {
@@ -214,8 +224,5 @@ html {
 }
 
 #workHTML {
-
     overflow: auto;
 }
-  
-  
